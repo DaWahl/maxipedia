@@ -21,20 +21,45 @@
             font-size: 36px;
             color: #222222;
         }
+        nav {
+            background-color: #222222;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
         .content {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             margin: 20px;
         }
         .main-section {
-            flex: 1;
+            flex: 3;
             padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .sidebar {
-            flex-basis: 250px;
+            flex: 1;
             padding: 20px;
             background-color: #fff;
             border: 1px solid #e2e2e2;
+            border-radius: 5px;
         }
         .featured-article {
             background-color: #fff;
@@ -50,9 +75,27 @@
             font-size: 14px;
             color: #555555;
         }
-        a {
+        .search-bar {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .category-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .category-list li {
+            margin-bottom: 10px;
+        }
+        .category-list li a {
             text-decoration: none;
             color: #0066cc;
+        }
+        .category-list li a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -62,26 +105,58 @@
     <h1>MAXIPEDIA</h1>
 </header>
 
+<nav>
+    <ul>
+        <li><a href="#">Hauptseite</a></li>
+        <li><a href="#">Themen</a></li>
+        <li><a href="#">Artikel</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Hilfe</a></li>
+    </ul>
+</nav>
+
 <div class="content">
     <div class="main-section">
+        <div class="search-bar-container">
+            <input type="text" class="search-bar" placeholder="Suche...">
+        </div>
+
         <div class="featured-article">
             <h2>Artikel des Tages</h2>
-            <p>Willkommen zum spannensten Race allerzeiten! Deine Aufgabe besteht darin, vom Artikel Pferde zu Gutschein mit so wenig Klicks wie möglich zu kommen. Denkst du, du bist dieser Aufgabe gewachsen? Dann starte doch gleich rein und viel Spaß! :D</p>
+            <p>Willkommen zum spannendsten Rennen aller Zeiten! Deine Aufgabe besteht darin, vom Artikel "Pferde" zu "Gutschein" mit so wenigen Klicks wie möglich zu kommen. Denkst du, du bist dieser Aufgabe gewachsen? Dann starte doch gleich rein und viel Spaß! :D</p>
         </div>
-        
+
         <div class="featured-article">
             <h2>Wissen des Tages</h2>
-            <p>Enten erzeugen sehrwohl ein Echo!</p>
+            <p>Enten erzeugen sehr wohl ein Echo!</p>
+        </div>
+
+        <div class="featured-article">
+            <h2>Neueste Artikel</h2>
+            <ul>
+                <li><a href="#">Artikel 1: Die Geschichte der Flugzeuge</a></li>
+                <li><a href="#">Artikel 2: Die Geheimnisse des Universums</a></li>
+                <li><a href="#">Artikel 3: Die Evolution des Menschen</a></li>
+                <li><a href="#">Artikel 4: Das Leben der Bienen</a></li>
+            </ul>
         </div>
     </div>
 
     <div class="sidebar">
+        <h3>Kategorien</h3>
+        <ul class="category-list">
+            <li><a href="#">Geschichte</a></li>
+            <li><a href="#">Wissenschaft</a></li>
+            <li><a href="#">Technologie</a></li>
+            <li><a href="#">Kunst</a></li>
+            <li><a href="#">Gesellschaft</a></li>
+        </ul>
+
         <h3>Im Fokus</h3>
-        <ul>
-            <li><a href="#">Artikel 1</a></li>
-            <li><a href="#">Artikel 2</a></li>
-            <li><a href="#">Artikel 3</a></li>
-            <li><a href="#">Artikel 4</a></li>
+        <ul class="category-list">
+            <li><a href="#">Artikel 1: Entdeckungen im Weltall</a></li>
+            <li><a href="#">Artikel 2: Die Erfindung des Internets</a></li>
+            <li><a href="#">Artikel 3: Der menschliche Körper</a></li>
         </ul>
     </div>
 </div>
