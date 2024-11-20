@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAXIPEDIA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #fcfcfc;
+            border-bottom: 1px solid #a2a2a2;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #222222;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .main-section {
+            flex: 1;
+            padding: 20px;
+        }
+        .sidebar {
+            flex-basis: 250px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #e2e2e2;
+        }
+        .featured-article {
+            background-color: #fff;
+            border: 1px solid #e2e2e2;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #fcfcfc;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #a2a2a2;
+            font-size: 14px;
+            color: #555555;
+        }
+        a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MAXIPEDIA</h1>
+</header>
+
+<div class="content">
+    <div class="main-section">
+        <div class="featured-article">
+            <h2>Artikel des Tages</h2>
+            <p>Willkommen zum spannensten Race allerzeiten! Deine Aufgabe besteht darin, vom Artikel Pferde zu Gutschein mit so wenig Klicks wie möglich zu kommen. Denkst du, du bist dieser Aufgabe gewachsen? Dann starte doch gleich rein und viel Spaß! :D</p>
+        </div>
+        
+        <div class="featured-article">
+            <h2>Wissen des Tages</h2>
+            <p>Enten erzeugen sehrwohl ein Echo!</p>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <h3>Im Fokus</h3>
+        <ul>
+            <li><a href="#">Artikel 1</a></li>
+            <li><a href="#">Artikel 2</a></li>
+            <li><a href="#">Artikel 3</a></li>
+            <li><a href="#">Artikel 4</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 MAXIPEDIA. Alle Rechte vorbehalten.</p>
+</div>
+
+</body>
+</html>
