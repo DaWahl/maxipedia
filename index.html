@@ -10,43 +10,53 @@
             margin: 0;
             background-color: #f8f9fa;
         }
+
         header {
             background-color: #fcfcfc;
             border-bottom: 1px solid #a2a2a2;
             padding: 20px;
             text-align: center;
         }
+
         header h1 {
             margin: 0;
             font-size: 36px;
             color: #222222;
         }
+
         nav {
             background-color: #222222;
             padding: 10px;
         }
+
         nav ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
         }
+
         nav ul li {
             margin: 0 15px;
         }
+
         nav ul li a {
             color: #fff;
             text-decoration: none;
         }
+
         nav ul li a:hover {
             text-decoration: underline;
         }
+
         .content {
             display: flex;
             justify-content: space-between;
             margin: 20px;
         }
+
         .main-section {
             flex: 3;
             padding: 20px;
@@ -54,6 +64,7 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         .sidebar {
             flex: 1;
             padding: 20px;
@@ -61,12 +72,14 @@
             border: 1px solid #e2e2e2;
             border-radius: 5px;
         }
+
         .featured-article {
             background-color: #fff;
             border: 1px solid #e2e2e2;
             padding: 15px;
             margin-bottom: 20px;
         }
+
         .footer {
             background-color: #fcfcfc;
             padding: 10px;
@@ -75,6 +88,7 @@
             font-size: 14px;
             color: #555555;
         }
+
         .search-bar {
             width: 100%;
             padding: 10px;
@@ -83,19 +97,62 @@
             border: 1px solid #ccc;
             border-radius: 5px;
         }
+
         .category-list {
             list-style-type: none;
             padding: 0;
         }
+
         .category-list li {
             margin-bottom: 10px;
         }
+
         .category-list li a {
             text-decoration: none;
             color: #0066cc;
         }
+
         .category-list li a:hover {
             text-decoration: underline;
+        }
+
+        /* Responsive Design: Anpassungen für kleinere Bildschirme */
+        @media (max-width: 768px) {
+            /* Navigation */
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            /* Layout der Hauptinhalte */
+            .content {
+                flex-direction: column;
+                margin: 10px;
+            }
+
+            .main-section {
+                flex: 1;
+                margin-bottom: 20px;
+            }
+
+            .sidebar {
+                flex: 1;
+                margin-bottom: 20px;
+            }
+
+            /* Suchleiste */
+            .search-bar {
+                font-size: 14px;
+            }
+
+            /* Footer */
+            .footer {
+                font-size: 12px;
+            }
         }
     </style>
 </head>
