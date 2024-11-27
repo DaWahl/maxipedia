@@ -3,99 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pferde - MAXIPEDIA</title>
+    <title>MAXIPEDIA - Pferde</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f8f9fa;
             margin: 0;
-            padding: 20px;
+            background-color: #f8f9fa;
         }
+
         header {
+            background-color: #fcfcfc;
+            border-bottom: 1px solid #a2a2a2;
+            padding: 20px;
             text-align: center;
-            padding: 10px 0;
-            background-color: #007bff;
-            color: white;
         }
+
         header h1 {
             margin: 0;
+            font-size: 36px;
+            color: #222222;
         }
-        main {
-            background: white;
+
+        .content {
+            display: flex;
+            justify-content: center;
             padding: 20px;
-            margin: 20px auto;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-section {
+            flex: 1;
             max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
         }
-        section {
-            margin-bottom: 20px;
-        }
+
         h2 {
-            color: #007bff;
-            border-bottom: 2px solid #007bff;
-            padding-bottom: 5px;
+            font-size: 24px;
+            color: #333;
         }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
+
+        h3 {
+            font-size: 20px;
+            color: #444;
             margin-top: 20px;
-            padding: 10px 0;
-            background-color: #007bff;
-            color: white;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            .main-section {
+                padding: 15px;
+                max-width: 100%;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .footer {
+                font-size: 12px;
+            }
+        }
+
+        .footer {
+            background-color: #fcfcfc;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #a2a2a2;
+            font-size: 14px;
+            color: #555555;
         }
     </style>
 </head>
 <body>
+
 <header>
-    <h1>Pferde</h1>
+    <h1>MAXIPEDIA</h1>
 </header>
-<main>
-    <section>
-        <h2>Allgemeines</h2>
-        <p>Das Pferd ist ein domestizierter Unpaarhufer, der weltweit für eine Vielzahl von Zwecken genutzt wird, darunter Arbeit, Sport, Freizeit und Therapie. Es gehört zur Familie der <em>Equidae</em> und ist eine Unterart des Wildpferdes. In freier Wildbahn existieren heute nur noch einige wenige verwandte Arten, wie der <a href="https://de.wikipedia.org/wiki/Przewalski-Pferd" target="_blank">Przewalski-Hengst</a>, der oft als "echtes Wildpferd" betrachtet wird.</p>
-    </section>
 
-    <section>
-        <h2>Biologie und Physiologie</h2>
-        <h3>Körperbau</h3>
-        <p>Pferde variieren stark in Größe und Gewicht. Die Bandbreite reicht von Miniaturpferden wie dem Falabella (ca. 40 cm) bis zu großen Kaltblutpferden wie dem Shire Horse (bis zu 220 cm). Das Gewicht reicht von 50 kg bei kleinen Ponys bis zu 1.200 kg bei Kaltblütern.</p>
-        <p>Sie besitzen eine Vielzahl von Fellfarben wie Schimmel, Rappen oder Füchse. Abzeichen wie Stirnmarkierungen oder der <em>Aalstrich</em> sind typisch für bestimmte Rassen.</p>
-        
-        <h3>Sinne und Verhalten</h3>
-        <p>Pferde haben ein ausgezeichnetes Gehör und können ihre Ohren unabhängig voneinander drehen. Ihre Augen ermöglichen ein weites Sichtfeld, aber sie haben eine blinde Zone direkt hinter sich. Als Herdentiere entwickeln sie soziale Hierarchien, die der Sicherheit der Gruppe dienen.</p>
-        
+<div class="content">
+    <div class="main-section">
+        <h2>Pferde</h2>
+        <p><strong>Allgemeines:</strong> Das Pferd ist ein domestizierter Unpaarhufer, der für Arbeit, Sport, Freizeit und Therapie genutzt wird. Es gehört zur Familie der Equidae und ist eine Unterart des Wildpferdes. Das Przewalski-Pferd ist eine der wenigen verbliebenen Wildarten.</p>
+
+        <h3>Biologie und Physiologie</h3>
+        <p><strong>Körperbau:</strong> Die Größe variiert stark, von Miniaturpferden wie dem Falabella (ca. 40 cm) bis zu Kaltblutpferden wie dem Shire Horse (bis zu 220 cm). Gewichtsspannen reichen von 50 kg bis über 1.200 kg. Fellfarben und Abzeichen wie Aalstriche und Stirnmarkierungen sind rassetypisch.</p>
+        <p><strong>Zähne:</strong> Pferde haben spezialisierte Zähne, die ein Leben lang wachsen. Sie sind perfekt auf die Ernährung mit harten Gräsern abgestimmt.</p>
+        <p><strong>Bewegungsapparat:</strong> Pferde sind Läufer mit vier Gangarten: Schritt, Trab, Galopp und Passgang. Ihre langen Beine ermöglichen schnelle Flucht vor Feinden.</p>
+        <p><strong>Sinneswahrnehmung:</strong> Pferde haben ein weites Sichtfeld und exzellentes Gehör. Sie leben in sozialen Gruppen mit klaren Hierarchien.</p>
+
         <h3>Fortpflanzung</h3>
-        <p>Pferde sind „Nestflüchter“: Ihre Fohlen können kurz nach der Geburt stehen und laufen. Die Trächtigkeitsdauer beträgt etwa 11 Monate.</p>
-    </section>
+        <p>Die Trächtigkeitsdauer beträgt etwa 11 Monate. Fohlen sind Nestflüchter, können kurz nach der Geburt stehen und laufen.</p>
 
-    <section>
-        <h2>Evolution und Domestikation</h2>
-        <p>Pferde haben sich aus mehrzehigen Vorfahren wie dem <a href="https://de.wikipedia.org/wiki/Eohippus" target="_blank">Eohippus</a> entwickelt. Über Millionen Jahre passten sie sich an offene Graslandschaften an. Vor etwa 5.000 bis 6.000 Jahren begann die Domestikation in Zentralasien. Seitdem wurden sie für Arbeit, Kriegsführung und Transport genutzt.</p>
-    </section>
+        <h3>Evolution</h3>
+        <p>Pferde stammen von mehrzehigen Vorfahren wie Eohippus ab. Die Domestikation begann vor 5.000–6.000 Jahren in Zentralasien, wo Pferde für Landwirtschaft, Transport und Kriegsführung gezüchtet wurden.</p>
 
-    <section>
-        <h2>Nutzung und kulturelle Bedeutung</h2>
-        <p>Pferde sind heute vor allem in Freizeit und Sport präsent. Disziplinen wie Springreiten, Dressur und Rennsport erfreuen sich weltweiter Beliebtheit.</p>
-        <h3>Pferderennen</h3>
-        <p><a href="https://de.wikipedia.org/wiki/Pferderennen" target="_blank">Pferderennen</a> gehören zu den ältesten Sportarten. Formen wie Galopp-, Trab- und Hindernisrennen locken große Wettmärkte an. Länder wie Großbritannien und die USA haben bedeutende Rennkulturen, mit Events wie dem „Kentucky Derby“.</p>
-    </section>
+        <h3>Nutzung und kulturelle Bedeutung</h3>
+        <p>Pferde wurden historisch in Landwirtschaft und Transport eingesetzt. Heute stehen Sport und Freizeit im Vordergrund, darunter Springreiten, Dressur und therapeutisches Reiten. Pferde haben eine zentrale Rolle in Mythologie und Kultur.</p>
 
-    <section>
-        <h2>Naturschutz und Haltung</h2>
-        <p>Das <a href="https://de.wikipedia.org/wiki/Przewalski-Pferd" target="_blank">Przewalski-Pferd</a> ist das einzige noch existierende Wildpferd. Schutzprogramme sichern sein Überleben. Artgerechte Haltung umfasst ausreichend Bewegung, sozialen Kontakt und ausgewogene Ernährung.</p>
-    </section>
+        <h3>Naturschutz und Haltung</h3>
+        <p>Das Przewalski-Pferd ist das einzige noch existierende Wildpferd. Pferde benötigen artgerechte Haltung mit viel Bewegung und sozialem Kontakt.</p>
 
-    <footer>
-        <p>&copy; 2024 MAXIPEDIA - Alle Rechte vorbehalten</p>
-    </footer>
-</main>
+        <h3>Moderne Nutzung</h3>
+        <p>Pferde werden heute vor allem in Freizeit, Sport, Landwirtschaft und für therapeutische Zwecke eingesetzt. Pferderennen sind ein bedeutender Wirtschaftszweig.</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 MAXIPEDIA. Alle Rechte vorbehalten.</p>
+</div>
+
 </body>
 </html>
