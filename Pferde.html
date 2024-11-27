@@ -3,175 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alles über Pferde</title>
+    <title>MAXIPEDIA - Flugzeug</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #f8f9fa;
         }
 
         header {
-            background-color: #0066cc;
-            color: white;
-            text-align: center;
+            background-color: #fcfcfc;
+            border-bottom: 1px solid #a2a2a2;
             padding: 20px;
+            text-align: center;
         }
 
         header h1 {
-            font-size: 1.8em;
             margin: 0;
+            font-size: 36px;
+            color: #222222;
         }
 
-        .container {
+        .content {
+            display: flex;
+            justify-content: center;
             padding: 20px;
+        }
+
+        .main-section {
+            flex: 1;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin: 10px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         h2 {
-            color: #0066cc;
-            font-size: 1.4em;
-            margin-top: 20px;
-        }
-
-        h3 {
-            color: #0088ff;
-            font-size: 1.2em;
-            margin-top: 15px;
+            font-size: 24px;
+            color: #333;
         }
 
         p {
-            font-size: 1em;
-            margin: 10px 0;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
         }
 
-        ul {
-            padding-left: 20px;
-            font-size: 1em;
+        /* Responsive Design: Anpassungen für kleinere Bildschirme */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 28px; /* Reduziere die Schriftgröße des Titels */
+            }
+
+            .main-section {
+                padding: 15px; /* Weniger Polsterung auf kleinen Bildschirmen */
+                max-width: 100%; /* Maximale Breite auf 100% setzen */
+            }
+
+            h2 {
+                font-size: 20px; /* Kleinere Schriftgröße für Überschriften */
+            }
+
+            p {
+                font-size: 14px; /* Kleinere Schriftgröße für Text */
+            }
+
+            .footer {
+                font-size: 12px; /* Kleinere Schriftgröße im Footer */
+            }
         }
 
-        li {
-            margin-bottom: 8px;
-        }
-
-        footer {
-            background-color: #004080;
-            color: white;
-            text-align: center;
+        .footer {
+            background-color: #fcfcfc;
             padding: 10px;
-            font-size: 0.9em;
+            text-align: center;
+            border-top: 1px solid #a2a2a2;
+            font-size: 14px;
+            color: #555555;
         }
 
-        @media screen and (min-width: 600px) {
-            header h1 {
-                font-size: 2.2em;
-            }
-
-            .container {
-                padding: 30px;
-                margin: 20px auto;
-                width: 80%;
-            }
-        }
-
-        @media screen and (max-width: 600px) {
-            header h1 {
-                font-size: 1.6em;
-            }
-
-            .container {
-                width: 100%;
-                padding: 15px;
-            }
-        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Alles über Pferde</h1>
+    <h1>MAXIPEDIA</h1>
 </header>
 
 <div class="container">
-    <h2>Allgemeines</h2>
-    <p>Das Pferd ist ein domestizierter Unpaarhufer, der weltweit für eine Vielzahl von Zwecken genutzt wird, darunter Arbeit, Sport, Freizeit und Therapie. Es gehört zur Familie der Equidae und ist ein Unterart des Wildpferdes. In freier Wildbahn existieren heute nur noch einige wenige verwandte Arten, wie der Przewalski-Hengst, der oft als "echtes Wildpferd" betrachtet wird.</p>
+        <h2>Allgemeines</h2>
+        <p>Das Pferd ist ein domestizierter Unpaarhufer, der weltweit für eine Vielzahl von Zwecken genutzt wird, darunter Arbeit, Sport, Freizeit und Therapie. Es gehört zur Familie der Equidae und ist ein Unterart des Wildpferdes. In freier Wildbahn existieren heute nur noch einige wenige verwandte Arten, wie der Przewalski-Hengst, der oft als "echtes Wildpferd" betrachtet wird.</p>
 
-    <h2>Biologie und Physiologie</h2>
-    
-    <h3>Körperbau</h3>
-    <h4>Größe und Gewicht:</h4>
-    <p>Die Größe eines Pferdes wird in der Regel in Zentimetern an der Widerristhöhe (Schulterhöhe) gemessen. Die Bandbreite reicht von Miniaturpferden wie dem Falabella (ca. 40 cm) bis zu großen Kaltblutpferden wie dem Shire Horse (bis zu 220 cm). Gewichtsvariationen liegen zwischen 50 kg (bei kleinen Ponys) und bis zu 1.200 kg bei großen Rassen wie Kaltblütern.</p>
+        <h2>Biologie und Physiologie</h2>
+        <h3>Körperbau</h3>
+        <p><strong>Größe und Gewicht:</strong> Die Größe eines Pferdes wird in der Regel in Zentimetern an der Widerristhöhe (Schulterhöhe) gemessen. Die Bandbreite reicht von Miniaturpferden wie dem Falabella (ca. 40 cm) bis zu großen Kaltblutpferden wie dem Shire Horse (bis zu 220 cm). Gewichtsvariationen liegen zwischen 50 kg (bei kleinen Ponys) und bis zu 1.200 kg bei großen Rassen wie Kaltblütern.</p>
+        <p><strong>Fellfarben und Abzeichen:</strong> Pferde haben verschiedene Fellfarben (Schimmel, Rappen, Füchse usw.) und Abzeichen wie Stirn- oder Beinmarkierungen. Der Aalstrich, ein dunkler Streifen entlang des Rückens, ist typisch für bestimmte Rassen.</p>
 
-    <h4>Fellfarben und Abzeichen:</h4>
-    <p>Pferde haben verschiedene Fellfarben (Schimmel, Rappen, Füchse usw.) und Abzeichen wie Stirn- oder Beinmarkierungen. Der Aalstrich, ein dunkler Streifen entlang des Rückens, ist typisch für bestimmte Rassen.</p>
+        <h3>Zähne</h3>
+        <p>Pferde besitzen ein spezialisiertes Gebiss für ihre Nahrung:</p>
+        <ul>
+            <li>Jungtiere haben Milchzähne, die später durch 36–44 bleibende Zähne ersetzt werden.</li>
+            <li>Die Zähne wachsen ein Leben lang, da sie durch das Kauen von harten Gräsern stark abgenutzt werden.</li>
+        </ul>
 
-    <h3>Zähne</h3>
-    <p>Pferde besitzen ein spezialisiertes Gebiss für ihre Nahrung:</p>
-    <ul>
-        <li>Jungtiere haben Milchzähne, die später durch 36–44 bleibende Zähne ersetzt werden.</li>
-        <li>Die Zähne wachsen ein Leben lang, da sie durch das Kauen von harten Gräsern stark abgenutzt werden.</li>
-    </ul>
+        <h3>Bewegungsapparat</h3>
+        <p>Pferde sind hoch entwickelte Läufer, angepasst an das Leben in offenen Graslandschaften. Ihre langen Beine ermöglichen schnelles Laufen, um Fressfeinden zu entkommen. Pferde können sich in vier Gangarten fortbewegen: Schritt, Trab, Galopp und Passgang.</p>
 
-    <h3>Bewegungsapparat</h3>
-    <p>Pferde sind hoch entwickelte Läufer, angepasst an das Leben in offenen Graslandschaften. Ihre langen Beine ermöglichen schnelles Laufen, um Fressfeinden zu entkommen. Pferde können sich in vier Gangarten fortbewegen: Schritt, Trab, Galopp und Passgang.</p>
+        <h3>Sinne und Verhalten</h3>
+        <p>Pferde haben ein ausgezeichnetes Gehör und können ihre Ohren unabhängig voneinander drehen, um Geräusche aus verschiedenen Richtungen wahrzunehmen. Ihre Augen ermöglichen ein weites Sichtfeld, da sie an den Seiten des Kopfes liegen. Allerdings sehen sie nicht gut in der Nähe und haben eine blinde Zone direkt hinter sich.</p>
+        <p>Sie sind soziale Herdentiere, die starke Hierarchien in Gruppen entwickeln. Ranghohe Tiere haben mehr Zugang zu Ressourcen und schützen oft die Gruppe.</p>
 
-    <h3>Sinne und Verhalten</h3>
-    <p>Pferde haben ein ausgezeichnetes Gehör und können ihre Ohren unabhängig voneinander drehen, um Geräusche aus verschiedenen Richtungen wahrzunehmen. Ihre Augen ermöglichen ein weites Sichtfeld, da sie an den Seiten des Kopfes liegen. Allerdings sehen sie nicht gut in der Nähe und haben eine blinde Zone direkt hinter sich. Sie sind soziale Herdentiere, die starke Hierarchien in Gruppen entwickeln. Ranghohe Tiere haben mehr Zugang zu Ressourcen und schützen oft die Gruppe.</p>
+        <h3>Fortpflanzung</h3>
+        <p>Die Trächtigkeitsdauer beträgt etwa 11 Monate. Die Fohlen sind "Nestflüchter", das heißt, sie können kurz nach der Geburt stehen und laufen, um in der Wildnis nicht gefährdet zu sein. Pferde erreichen die Geschlechtsreife mit etwa 3–5 Jahren.</p>
 
-    <h3>Fortpflanzung</h3>
-    <p>Die Trächtigkeitsdauer beträgt etwa 11 Monate. Die Fohlen sind "Nestflüchter", das heißt, sie können kurz nach der Geburt stehen und laufen, um in der Wildnis nicht gefährdet zu sein. Pferde erreichen die Geschlechtsreife mit etwa 3–5 Jahren.</p>
+        <h2>Evolution</h2>
+        <h3>Vorfahren</h3>
+        <p>Pferde haben sich über Millionen Jahre aus kleinen, mehrzehigen Vorfahren wie Eohippus entwickelt. Fossilien zeigen, dass diese Tiere ursprünglich in Wäldern lebten, bevor sie sich an Graslandschaften anpassten. Die Evolution führte zu:</p>
+        <ul>
+            <li>Einer Reduktion auf einen einzigen funktionalen Zeh (Huf).</li>
+            <li>Längeren Gliedmaßen für schnelle Flucht.</li>
+            <li>Hoch entwickelten Backenzähnen, die harte Gräser zerkleinern können.</li>
+        </ul>
 
-    <h2>Evolution</h2>
+        <h3>Domestikation</h3>
+        <p>Die Domestikation begann vor etwa 5.000–6.000 Jahren in Zentralasien. Seitdem wurden Pferde für viele Zwecke gezüchtet:</p>
+        <ul>
+            <li>Arbeitstiere in der Landwirtschaft.</li>
+            <li>Transportmittel vor der Erfindung des Automobils.</li>
+            <li>Kriegsführung, insbesondere als Kavallerie.</li>
+        </ul>
 
-    <h3>Vorfahren</h3>
-    <p>Pferde haben sich über Millionen Jahre aus kleinen, mehrzehigen Vorfahren wie Eohippus entwickelt. Fossilien zeigen, dass diese Tiere ursprünglich in Wäldern lebten, bevor sie sich an Graslandschaften anpassten. Die Evolution führte zu:</p>
-    <ul>
-        <li>Einer Reduktion auf einen einzigen funktionalen Zeh (Huf).</li>
-        <li>Längeren Gliedmaßen für schnelle Flucht.</li>
-        <li>Hoch entwickelten Backenzähnen, die harte Gräser zerkleinern können.</li>
-    </ul>
+        <h2>Nutzung und kulturelle Bedeutung</h2>
+        <h3>Arbeit und Transport</h3>
+        <p>Historisch waren Pferde essenziell in der Landwirtschaft, beim Ziehen von Kutschen und beim Transport schwerer Lasten. Heute sind sie in diesen Bereichen weitgehend durch Maschinen ersetzt worden.</p>
 
-    <h3>Domestikation</h3>
-    <p>Die Domestikation begann vor etwa 5.000–6.000 Jahren in Zentralasien. Seitdem wurden Pferde für viele Zwecke gezüchtet:</p>
-    <ul>
-        <li>Arbeitstiere in der Landwirtschaft.</li>
-        <li>Transportmittel vor der Erfindung des Automobils.</li>
-        <li>Kriegsführung, insbesondere als Kavallerie.</li>
-    </ul>
+        <h3>Sport und Freizeit</h3>
+        <p>Pferdesportarten wie Springreiten, Dressur, Rennsport und Polo sind weltweit populär. Pferde dienen auch als Freizeitpartner für Reitenthusiasten.</p>
 
-    <h2>Nutzung und kulturelle Bedeutung</h2>
+        <h3>Kultur und Symbolik</h3>
+        <p>Pferde sind häufig in Mythologie, Kunst und Literatur zu finden. Sie symbolisieren Freiheit, Stärke und Anmut. In einigen Kulturen gelten sie als heilige Tiere, während sie in anderen als Nahrungsquelle betrachtet werden.</p>
 
-    <h3>Arbeit und Transport</h3>
-    <p>Historisch waren Pferde essenziell in der Landwirtschaft, beim Ziehen von Kutschen und beim Transport schwerer Lasten. Heute sind sie in diesen Bereichen weitgehend durch Maschinen ersetzt worden.</p>
+        <h2>Naturschutz und Haltung</h2>
+        <h3>Wildpferde</h3>
+        <p>Das Przewalski-Pferd ist das einzige noch existierende Wildpferd und wird in Schutzprogrammen erhalten. Andere als "Wildpferde" bezeichnete Tiere, wie Mustangs in den USA, sind verwilderte Nachfahren domestizierter Pferde.</p>
 
-    <h3>Sport und Freizeit</h3>
-    <p>Pferdesportarten wie Springreiten, Dressur, Rennsport und Polo sind weltweit populär. Pferde dienen auch als Freizeitpartner für Reitenthusiasten.</p>
+        <h3>Moderne Haltung</h3>
+        <p>Pferde benötigen eine artgerechte Haltung mit ausreichend Bewegung, sozialem Kontakt und spezifischem Futter. Viele Länder haben strenge Tierschutzgesetze für Pferdehaltung eingeführt.</p>
 
-    <h3>Kultur und Symbolik</h3>
-    <p>Pferde sind häufig in Mythologie, Kunst und Literatur zu finden. Sie symbolisieren Freiheit, Stärke und Anmut. In einigen Kulturen gelten sie als heilige Tiere, während sie in anderen als Nahrungsquelle betrachtet werden.</p>
+        <h3>Moderne Nutzung</h3>
+        <p>Heutzutage werden Pferde vor allem in den folgenden Bereichen genutzt:</p>
+        <ul>
+            <li>Freizeit und Sport: Reiten, Kutschenfahren und therapeutisches Reiten.</li>
+            <li>Landwirtschaft und Arbeit: In einigen Regionen werden sie noch immer als Zugtiere eingesetzt.</li>
+            <li>Pferdesport und -rennen: Besonders prominent sind Pferderennen, die sowohl als Wettkampf als auch als Unterhaltungsindustrie eine enorme Bedeutung haben.</li>
+        </ul>
 
-    <h2>Naturschutz und Haltung</h2>
+        <h2>Verwandte Themen</h2>
+        <ul>
+            <li>Evolution der Pferde: Hier wird die fossile Entwicklung von Vorfahren wie Eohippus bis zum modernen Pferd beschrieben.</li>
+            <li>Fellfarben und Abzeichen: Diese Sektion bietet eine detaillierte Übersicht über die verschiedenen Fellvarianten und Markierungen.</li>
+            <li>Domestikation von Pferden: Ein spannender Abschnitt über die Bedeutung von Pferden für die Menschheitsgeschichte.</li>
+        </ul>
 
-    <h3>Wildpferde</h3>
-    <p>Das Przewalski-Pferd ist das einzige noch existierende Wildpferd und wird in Schutzprogrammen erhalten. Andere als "Wildpferde" bezeichnete Tiere, wie Mustangs in den USA, sind verwilderte Nachfahren domestizierter Pferde.</p>
+        <h2>Fazit</h2>
+        <p>Pferde sind faszinierende Tiere mit einer langen Geschichte der Zusammenarbeit mit dem Menschen. Sie verbinden Biologie, Kultur und Sport und bleiben sowohl in der Wissenschaft als auch in der Freizeit ein zentrales Thema
+    </div>
+</div>
 
-    <h3>Moderne Haltung</h3>
-    <p>Pferde benötigen eine artgerechte Haltung mit ausreichend Bewegung, sozialem Kontakt und spezifischem Futter. Viele Länder haben strenge Tierschutzgesetze für Pferdehaltung eingeführt.</p>
+<div class="footer">
+    <p>&copy; 2024 MAXIPEDIA. Alle Rechte vorbehalten.</p>
+</div>
 
-    <h3>Moderne Nutzung</h3>
-    <p>Heutzutage werden Pferde vor allem in den folgenden Bereichen genutzt:</p>
-    <ul>
-        <li>Freizeit und Sport: Reiten, Kutschenfahren und therapeutisches Reiten.</li>
-        <li>Landwirtschaft und Arbeit: In einigen Regionen werden sie noch immer als Zugtiere eingesetzt.</li>
-        <li>Pferdesport und -rennen: Besonders prominent sind Pferderennen, die sowohl als Wettkampf als auch als Unterhaltungsindustrie eine enorme Bedeutung haben.</li>
-    </ul>
-
-    <h2>Verwandte Themen</h2>
-    <ul>
-        <li>Evolution der Pferde: Hier wird die fossile Entwicklung von Vorfahren wie Eohippus bis zum modernen Pferd beschrieben.</li>
-        <
+</body>
+</html>
