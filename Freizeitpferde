@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAXIPEDIA - Freizeit- und Therapiepferde</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #fcfcfc;
+            border-bottom: 1px solid #a2a2a2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #222222;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .main-section {
+            flex: 1;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #444;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .footer {
+            background-color: #fcfcfc;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #a2a2a2;
+            font-size: 14px;
+            color: #555555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MAXIPEDIA</h1>
+</header>
+
+<div class="content">
+    <div class="main-section">
+        <h2>Freizeit- und Therapiepferde</h2>
+        <p><strong>Freizeit- und Therapiepferde</strong> sind Pferde, die speziell für den Einsatz in der Freizeitgestaltung oder therapeutischen Maßnahmen ausgewählt und ausgebildet werden. Sie zeichnen sich durch ihr ruhiges Wesen, ihre Gelassenheit und ihre Anpassungsfähigkeit aus.</p>
+
+        <h3>Eigenschaften</h3>
+        <p>Freizeitpferde sollen vor allem zuverlässig und vielseitig einsetzbar sein. Therapiepferde müssen zusätzlich besondere Anforderungen erfüllen, wie Geduld und Sensibilität, um mit Menschen in speziellen Situationen arbeiten zu können.</p>
+
+        <h3>Einsatzgebiete</h3>
+        <p>Freizeitpferde werden für Ausritte, Reitunterricht oder als Begleiter im Pferdesport genutzt. Therapiepferde kommen in der Hippotherapie, Ergotherapie oder psychotherapeutischen Arbeit zum Einsatz. Sie helfen, motorische Fähigkeiten zu fördern, emotionale Blockaden zu lösen und soziale Kompetenzen zu stärken.</p>
+
+        <h3>Bedeutung</h3>
+        <p>Pferde sind nicht nur ein Mittel zur Freizeitgestaltung, sondern können durch ihre Ausstrahlung und Interaktion mit Menschen einen positiven Beitrag zur physischen und psychischen Gesundheit leisten. Sie spielen eine wertvolle Rolle in der Gesellschaft.</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 MAXIPEDIA. Alle Rechte vorbehalten.</p>
+</div>
+
+</body>
+</html>
