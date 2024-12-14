@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAXIPEDIA - Kaltblutpferde</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #fcfcfc;
+            border-bottom: 1px solid #a2a2a2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #222222;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .main-section {
+            flex: 1;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #444;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .footer {
+            background-color: #fcfcfc;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #a2a2a2;
+            font-size: 14px;
+            color: #555555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MAXIPEDIA</h1>
+</header>
+
+<div class="content">
+    <div class="main-section">
+        <h2>Kaltblutpferde</h2>
+        <p><strong>Kaltblutpferde</strong> sind eine Gruppe von Pferderassen, die durch ihre kräftige Statur, Ruhe und Stärke gekennzeichnet sind. Ursprünglich wurden sie vor allem als Arbeitstiere in der Landwirtschaft und Forstwirtschaft genutzt.</p>
+
+        <h3>Merkmale</h3>
+        <p>Kaltblüter sind groß, muskulös und schwer gebaut. Ihr ruhiges Wesen macht sie besonders geeignet für schwere Arbeiten. Sie haben oft ein dichtes Fell und eine dicke Mähne, was sie widerstandsfähig gegen Kälte und raue Bedingungen macht.</p>
+
+        <h3>Verwendung</h3>
+        <p>Traditionell wurden Kaltblutpferde für das Ziehen von Pflügen, Karren und schweren Lasten eingesetzt. Heute spielen sie eine wichtige Rolle in der Forstwirtschaft und bei traditionellen Festen sowie als Freizeit- und Therapiepferde.</p>
+
+        <h3>Bekannte Rassen</h3>
+        <p>Zu den bekanntesten Kaltblutrassen gehören das Noriker, das Shire Horse und der Rheinisch-Deutsche Kaltblüter. Jede Rasse hat spezifische Eigenschaften und regionale Wurzeln.</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 MAXIPEDIA. Alle Rechte vorbehalten.</p>
+</div>
+
+</body>
+</html>
